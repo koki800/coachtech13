@@ -35,7 +35,7 @@
                 <input type="text" name="fullname2" id="" class="name">
                 <p>例）太郎</p>
               </div>
-              <input type="text" name="fullname" class="name" value="">
+              <input type="hidden" name="fullname" class="name" value="">
               <script>
                 let n0 = document.getElementsByClassName('name')[0].value;
                 console.log(n0);
