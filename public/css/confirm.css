@@ -31,6 +31,9 @@ div button{
 div button:hover{
   opacity: 0.5;
 }
+.modify_button{
+  border: none;
+}
 .modify{
   text-align: center;
 }

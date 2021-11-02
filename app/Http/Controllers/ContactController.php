@@ -22,6 +22,12 @@ class ContactController extends Controller
         return view('confirm',['items' => $items]);
     }
 
+    public function delete0(Request $request)
+    { 
+        Contact::find($request->id)->delete();
+        return back();
+    }
+
     public function register(Request $request)
     { 
         return view('register');

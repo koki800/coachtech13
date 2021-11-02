@@ -83,9 +83,14 @@
     <form action="/register" method="post">
       <button type="submit">送信</button>
     </form>
-    <script>
-      <a href="javascript:history.back()" class="modify">修正する</a>
-    </script>
+    <form action="/delete0" method="post">
+      <button class="modify_button">
+        <input type="hidden" name="id" value="{{$item -> id}}">
+        <script>
+          <a href="javascript:history.back()" class="modify">修正する</a>
+        </script>
+      </button>
+    </form>
   </div>
 </body>
 </html>

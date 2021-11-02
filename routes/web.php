@@ -20,6 +20,8 @@ Route::get('/',function(){
 
 Route::post('/confirm',[ContactController::class,'confirm']);
 
+Route::post('/delete0',[ContactController::class,'delete0']);
+
 Route::post('/register',[ContactController::class,'register']);
 
 Route::get('/ad_system',[ContactController::class,'ad_system']);
