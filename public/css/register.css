@@ -1,0 +1,16 @@
+div{
+  width: 50%;
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+div button{
+  display: block;
+  margin: 30px auto;
+  padding: 15px 60px;
+  background: black;
+  color: white;
+}
+div button:hover{
+  opacity: 0.5;
+}

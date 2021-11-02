@@ -1,0 +1,69 @@
+h1{
+  font-size: 2rem;
+  margin: 30px 0 30px 270px;
+}
+.input_form{
+  width: 40%;  
+}
+table{
+  width: 100%;
+}
+td{
+  width: 55%;
+}
+.input_name{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.name{
+  width: 70%;
+}
+input{
+  width: 100%;
+  line-height: 30px;
+}
+p{
+  margin: 20px 0;
+  color: gray;
+}
+span{
+  color: red;
+}
+.gender{
+  line-height: 3;
+}
+.radio ul{
+  display: flex;
+}
+.radio li{
+  display: flex;
+}
+.radio ul li input{
+  transform:scale(2.0)；
+}
+.radio li:last-child{
+  margin-left: 50px;
+}
+.postcode{
+  width: 80%;
+}
+.opinion{
+  color: black;
+  position: relative;
+  top: -80px;
+  left: 0;
+}
+div button{
+  display: block;
+  margin: 30px auto;
+  padding: 15px 60px;
+  background: black;
+  color: white;
+}
+div button:hover{
+  opacity: 0.5;
+}
+.error{
+  color: red;
+}
